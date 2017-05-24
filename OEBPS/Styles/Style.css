@@ -1,0 +1,505 @@
+/*南無阿彌陀佛*/
+
+/*KF8 CSS 
+First Version	2015-05-10*/
+ @charset"UTF-8"
+/*CSS Reset*/
+ * {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+div, span, h1, h2, h3, h4, h5, h6, p, img, nav, section {
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+}
+/* 页面*/
+ @page {
+	/*margin-top: 5%;
+	margin-bottom: 3%;*/
+}
+/*↓↓**********字体定义********↓↓*/
+
+/*方正中雅宋*/
+ @font-face {
+	font-family:"zhong_ys";
+	src:url(../Fonts/zhongys.ttf);
+}
+/*方正准雅宋*/
+ @font-face {
+	font-family:"zhun_ys";
+	src:url(../Fonts/zhunys.ttf);
+}
+
+/*全字库宋体提取的标点*/
+ @font-face {
+	font-family:"bd";
+	src:url(../Fonts/bd.ttf);
+}
+/*调用标点字体*/
+ @font-face {
+	font-family:"zbd";
+	src:url(../Fonts/bd.ttf);
+	unicode-range: U+FF00-FFEF,
+	/*全角ASCII、全角中英文标点、半宽片假名、半宽平假名、半宽韩文字母：FF00-FFEF*/
+	U+3000-303F,
+	/*CJK标点符号*/
+	U+FE10-FE1F,
+	/*中文竖排标点：FE10-FE1F*/
+	U+FE30-FE4F;
+	/*CJK兼容符号（竖排变体、下划线、顿号）：FE30-FE4F*/
+}
+/* 提取的缺字*/
+
+/*@font-face {
+	font-family:"qz";
+	src:url(../Fonts/qz.ttf);
+}*/
+
+/*宋体*/
+ @font-face {
+	font-family:"st";
+	src:local("宋体"), local("Songti"), local("Songti SC"), local("Songti TC"), local("STSongti"), local("STSong"), local("Song S"), local("Song T"), local("STBShusong"), local("TBMincho"), local("HYMyeongJo"), local("\5B8B\4F53")
+	/*宋体*/
+	, local("SimSun"), local("\65B0\5B8B\4F53")
+	/*新宋体*/
+	, local("NSimSun"), local("\534E\6587\5B8B\4F53")
+	/*华文宋体*/
+	, local("STSong"), local("Song"), local("\4E3D\5B8B Pro")
+	/*丽宋 Pro*/
+	, local("LiSong Pro Light"), local("\82F9\679C\4E3D\7EC6\5B8B")
+	/*苹果丽细宋*/
+	, local("Apple LiSung Light");
+}
+/*黑体*/
+ @font-face {
+	font-family:"ht";
+	src:local("黑体"), local("微软雅黑"), local("Heiti"), local("Heiti SC"), local("Heiti TC"), local("STHeiti"), local("STHei"), local("MYing Hei S"), local("MYing Hei T"), local("TBGothic"), local("\9ED1\4F53")
+	/*黑体*/
+	, local("Hei"), local("SimHei"), local("\5FAE\8F6F\96C5\9ED1")
+	/*微软雅黑*/
+	, local("Microsoft YaHei"), local("\5FAE\x8F6F\6B63\9ED1\4F53")
+	/*微软正黑体*/
+	, local("Microsoft JhengHei"), local("\534E\6587\9ED1\4F53")
+	/*华文黑体*/
+	, local("STHeiti"), local("\4E3D\9ED1 Pro")
+	/*丽黑 Pro*/
+	, local("LiHei Pro Medium"), local("\82F9\679C\4E3D\4E2D\9ED1")
+	/*苹果丽中黑*/
+	, local("Apple LiGothic Medium"), local("\534E\6587\7EC6\9ED1")
+	/*华文细黑*/
+	, local("STHeiti Light [STXihei]");
+}
+/*楷体*/
+ @font-face {
+	font-family:"kt";
+	src:local("楷体"), local("楷体_GB2312"), local("Kaiti"), local("Kaiti SC"), local("Kaiti TC"), local("STKaiti"), local("STKai"), local("MKai PRC"), local("MKaiGB18030C-Medium"), local("MKaiGB18030C-Bold"), local("STKai"),
+	/*华文楷体*/
+	local("华文楷体"), local("STKaiti"), local("\534E\6587\6977\4F53"),
+	/*标楷体*/
+	local("标楷体"), local("BiauKai"), local("\6807\6977\4F53"), local("DFKai-SB"),
+	/*"楷体"*/
+	local("\6977\4F53"),
+	/*楷体_GB2312*/
+	local("KaiTi_GB2312"), local("\6977\4F53_GB2312"), local("TKaiti");
+}
+/*圆体*/
+ @font-face {
+	font-family:"yt";
+	src:local("Yuanti"), local("Yuanti SC"), local("Yuanti TC"), local("STYuanti"), local("STYuan");
+}
+/*花園明朝體提取缺字*/
+ @font-face {
+	font-family:"qza";
+	src:url(../Fonts/qza.ttf);
+}
+@font-face {
+	font-family:"qzb";
+	src:url(../Fonts/qzb.ttf);
+}
+/*↑↑**********字体定义结束********↑↑*/
+
+/*Global Setting*/
+
+
+
+/*竖体排版*/
+ body {
+	writing-mode: vertical-rl;
+	-webkit-writing-mode: vertical-rl;
+	-epub-writing-mode: vertical-rl;
+	-epub-line-break: strict;
+	line-break: strict;
+	-epub-word-break: normal;
+	word-break: normal;
+	text-align: left;
+	margin-top: 3%;
+	margin-bottom: 1.5em;
+	letter-spacing: 0px;
+}
+/*横体排版*/
+body.hor_page {
+	writing-mode: horizontal-tb;
+	-webkit-writing-mode: horizontal-tb;
+	-epub-writing-mode: horizontal-tb;
+	text-align: center;
+	margin: 3%;
+}
+ul, ol {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color: #000000;
+	cursor: pointer;
+}
+ h1, h2, h3, h4, h5, h6 {
+	/*margin-left: 0.5em;
+    margin-right: 0.5em;*/
+	/*margin: 0% 1% 0 1%;*/
+	text-align: left;
+	font-family:"zbd","微软雅黑", "黑体", "ht", sans-serif;
+	page-break-before: avoid;
+	padding-top: 1px;
+}
+h1 {
+	font-size: 250%;
+	text-align: left;
+	page-break-before: always;
+	letter-spacing: 0.1em;
+}
+.nobreak {
+	page-break-before: avoid;
+}
+h2 {
+	font-size: 200%;
+	text-align: left;
+	text-indent:0em;
+	page-break-before: avoid;
+	letter-spacing: 0.1em;
+}
+h3 {
+	font-size: 180%;
+	text-align: left;
+	text-indent:0em;
+	page-break-before: avoid;
+	margin-top: 1em;
+}
+h4 {
+	font-size: 160%;
+	text-align: left;
+	text-indent:0em;
+	page-break-before: avoid;
+	margin-top: 1em;
+}
+h3.mg0 {
+	margin-top: 0em;
+}
+h3.mg2 {
+	margin-top: 2em;
+}
+h3.mg3 {
+	margin-top: 3em;
+}
+/*Sigil默认目录格式*/
+ div.sgc-toc-title {
+	font-size: 180%;
+	/*margin-left: 0.5em;
+	margin-right: 0.5em;*/
+	margin-top:4em;
+	text-align:left;
+	font-family:"黑体", "ht", sans-serif;
+	letter-spacing:0.15em;
+}
+div.sgc-toc-level-1, div.sgc-toc-level-2, div.sgc-toc-level-3 {
+	text-align: left;
+	margin: 1%;
+	/*margin-left: 0.5em;*/
+	font-family:"zbd", "黑体", "ht", sans-serif;
+}
+div.sgc-toc-level-1 {
+	/*margin-left: 0em;*/
+	font-size:150%;
+}
+div.sgc-toc-level-2 {
+	/*margin-top: 2em;*/
+	margin-top: 2em;
+	font-size:125%;
+	font-family:"zbd", "kt";
+}
+div.sgc-toc-level-3 {
+	/*margin-top: 3em;*/
+	margin-top: 3em;
+	font-size: 125%;
+	font-family:"zbd", "kt";
+}
+/*正文*/
+ p {
+	text-align: justify;
+	text-indent: 0em;
+	font-size: 150%;
+	line-height: 150%;
+	/*margin: 0px;
+	margin-top: 0em;
+	padding:0px;
+	margin-bottom:0em;
+	/*
+	margin-left: 0em;
+	margin-right: 0em;
+	display: block;*/
+	font-family:"zbd", "zhong_ys", "zhun_ys", "st";
+}
+.ht {
+	font-family:"zbd", "黑体", "微软雅黑", "ht", sans-serif;
+}
+.kt {
+	font-family:"zbd", "kt";
+}
+.st {
+	font-family:"zbd", "st";
+}
+.yt {
+	font-family:"zbd", "仿宋", "仿宋_GB2312", "yt", sans-serif;
+}
+/*经文*/
+ p.sutra {
+	margin-top: 0%;
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+	font-size: 160%;
+	line-height:150%;
+	font-family:"zbd", "zhong_ys", "zhun_ys";
+}
+/*論*/
+ p.apdm {
+	margin-top: 0%;
+	margin-left: 0.25em;
+	margin-right: 0.25em;
+	font-size: 140%;
+	line-height:135%;
+}
+/* Images */
+ .images, .img {
+	width: 100%;
+	text-align:center;
+	page-break-before: always;
+}
+.img2 {
+	width: 100%;
+	text-align:left;
+	page-break-before: always;
+}
+/* 链接（无划线） */
+ .underline {
+	color: #000000;
+	cursor: pointer;
+	text-decoration: none;
+}
+/*正文邊距低一行*/
+ p.p1 {
+	margin-top: 1em;
+}
+/*正文標題*/
+ p.title {
+	text-align:left;
+	margin-top: 3em;
+	margin-right:0.5em;
+	margin-left:0.5em;
+}
+/*序文跋文*/
+ p.p2 {
+	font-size: 135%;
+	line-height:150%;
+	font-family:"zbd", "kt";
+	margin-top:1em;
+}
+/*科文*/
+ p.kw {
+	font-size: 120%;
+	line-height:135%;
+	font-family:"zbd", "kt";
+	margin-top:1.25em;
+	margin-left:0.25em;
+	margin-right: 0.25em;
+}
+/*整段缩进*/
+ .mg1 {
+	margin-top: 1em;
+}
+.mg2 {
+	margin-top: 2em;
+}
+.mg3 {
+	margin-top: 3em;
+}
+.mg4 {
+	margin-top: 4em;
+}
+/*左缩进*/
+ .mgl1 {
+	margin-left: 1em;
+}
+.mgl2 {
+	margin-left: 2em;
+}
+.mgl4 {
+	margin-left: 4em;
+}
+/*首字缩进*/
+ .sj1 {
+	padding-top: 1em;
+}
+.sj1:first-letter {
+	margin-top: -1em;
+}
+/*读经提示引用文，首字缩进4字符*/
+ .sj3 {
+	padding-top: 6em;
+}
+.sj3:first-letter {
+	margin-top: -4em;
+}
+p.ts {
+	font-size: 135%;
+	line-height:120%;
+	font-family:"zbd", "kt";
+	/*margin-top:0.5em;
+	margin-bottom:0.5em;*/
+	/*margin-left:0.5em;
+	margin-right:0.5em;*/
+}
+/*小一号字体且前面换页*/
+ p.p80 {
+	font-size: 80%;
+	page-break-before: always;
+}
+/*译经师*/
+ p.trans {
+	font-size: 130%;
+	text-align:right;
+	text-indent:0em;
+	margin-bottom:2.5em;
+}
+
+/*段落边框*/
+ .border {
+	padding: 10px;
+	border-style: solid solid solid solid;
+	border-width: 4px 4px 4px 4px;
+	border-color: #000000;
+	margin:2%;
+}
+p.border2 {
+	margin-top:7em;
+	margin-bottom: 7em;
+	padding: 1em;
+	font-size:130%;
+	line-height:120%;
+}
+/*段中小一号字*/
+ span.a, span.zhu
+/*段中注*/
+ {
+	font-size:80%;
+	font-family:"zbd", "kt";
+	vertical-align: center;
+}
+span.b {
+	font-size:100%;
+	font-family:"zbd", "kt", sans-serif;
+}
+/*标点*/
+
+/* span.bd {
+	font-family:"bd";
+	text-align:left;
+	font-weight:bold;
+}*/
+
+/*字符不换行*/
+ span.nowrap {
+	white-space:nowrap;
+}
+/*缺字*/
+ span.qza {
+	font-family:"qza", "ht", "st";
+	/*font-weight:bold;*/
+}
+/*纵中横*/
+ span.tcy {
+	-webkit-writing-mode: horizontal-tb;
+	display: inline-block;
+	line-height: 1em;
+	text-align: center;
+	text-indent: 0;
+}
+.font_patch_p {
+	width:1.4em;
+	/*大小设置与“font-size”相同*/
+	vertical-align:-10%;
+}
+.font_patch_p2 {
+	width:1.2em;
+	/*大小设置与“font-size”相同*/
+	vertical-align:-10%;
+}
+/*标注边框*/
+ .bz {
+	vertical-align: center;
+	background-color: #555555;
+	border-color: #000000;
+	border-style: solid;
+	border-width: 1px 1px 1px 1px;
+	color: white;
+}
+/*标注边框2*/
+ .bk {
+	vertical-align: center;
+	background-color: #2A2A2A;
+	border-color: #000000;
+	border-style: solid;
+	/*border-width: 1px 1px 1px 1px;*/
+	color: white;
+}
+/*圆形标注边框2*/
+ .circle {
+	font-size:100%;
+	font-family:"kt";
+	vertical-align: center;
+	width: 1.8em;
+	height: 1.8em;
+	background-color: #2A2A2A;
+	color: white;
+	text-align: center;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+}
+/*附文格式*/
+ p.p3 {
+	font-size: 135%;
+	line-height:120%;
+	font-family:"zbd", "kt", "st", "ht";
+}
+p.colo {
+	font-size: 135%;
+	line-height:150%;
+	font-family:"zbd", "kt";
+	margin-top:2em;
+}
+.ta-c {
+	text-align: center;
+}
+.ta-r{/*对齐到下边距*/
+	text-align: right;
+	margin-bottom: 0em;
+	margin-top:0em;
+}
+.ti-2 {
+	text-indent:2em;
+}
+/*last edit 2016-5-6*/

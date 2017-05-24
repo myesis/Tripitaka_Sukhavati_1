@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package version="2.0" unique-identifier="BookId" xmlns="http://www.idpf.org/2007/opf">
+  <metadata xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <meta name="Sigil version" content="0.9.8" />
+    <meta name="primary-writing-mode" content="vertical-rl" />
+    <dc:title>大藏經淨土部</dc:title>
+    <dc:creator opf:role="aut">姚秦三藏法師鳩摩羅什等譯</dc:creator>
+    <dc:language>zh-CN</dc:language>
+    <dc:description>Ver 1.0.1 Release</dc:description>
+    <dc:date opf:event="modification">2017-05-21</dc:date>
+    <dc:identifier opf:scheme="UUID" id="BookId">urn:uuid:4deaa79c-1ca0-4bfe-8f5b-20f19c09d608</dc:identifier>
+    <meta name="cover" content="x1.png" />
+  </metadata>
+  <manifest>
+    <item id="Bodhisattva.gif" href="Images/Bodhisattva.gif" media-type="image/gif"/>
+    <item id="SVGWrap0000" href="Text/word1_png.xhtml" media-type="application/xhtml+xml"/>
+    <item id="SVGWrap0001" href="Text/word2_png.xhtml" media-type="application/xhtml+xml"/>
+    <item id="SVGWrap0002" href="Text/word3_png.xhtml" media-type="application/xhtml+xml"/>
+    <item id="SVGWrap0003" href="Text/word4_png.xhtml" media-type="application/xhtml+xml"/>
+    <item id="SVGWrap0004" href="Text/word5_png.xhtml" media-type="application/xhtml+xml"/>
+    <item id="SVGWrap0005" href="Text/word6_png.xhtml" media-type="application/xhtml+xml"/>
+    <item id="SVGWrap0006" href="Text/word7_png.xhtml" media-type="application/xhtml+xml"/>
+    <item id="SVGWrap0007" href="Text/word8_png.xhtml" media-type="application/xhtml+xml"/>
+    <item id="SVGWrap0009" href="Text/endpage_jpg.xhtml" media-type="application/xhtml+xml"/>
+    <item id="SVGWrap0010" href="Text/Bodhisattva_gif.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Style.css" href="Styles/Style.css" media-type="text/css"/>
+    <item id="TOC.xhtml" href="Text/TOC.xhtml" media-type="application/xhtml+xml"/>
+    <item id="bd.ttf" href="Fonts/bd.ttf" media-type="application/x-font-ttf"/>
+    <item id="colophon.xhtml" href="Text/colophon.xhtml" media-type="application/xhtml+xml"/>
+    <item id="colophon2.xhtml" href="Text/colophon2.xhtml" media-type="application/xhtml+xml"/>
+    <item id="cover.xhtml" href="Text/cover.xhtml" media-type="application/xhtml+xml"/>
+    <item id="end.xhtml" href="Text/end.xhtml" media-type="application/xhtml+xml"/>
+    <item id="end2.xhtml" href="Text/end2.xhtml" media-type="application/xhtml+xml"/>
+    <item id="endpage.jpg" href="Images/endpage.jpg" media-type="image/jpeg"/>
+    <item id="foreword.xhtml" href="Text/foreword.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    <item id="qza.ttf" href="Fonts/qza.ttf" media-type="application/x-font-ttf"/>
+    <item id="word1.png" href="Images/word1.png" media-type="image/png"/>
+    <item id="word2.png" href="Images/word2.png" media-type="image/png"/>
+    <item id="word3.png" href="Images/word3.png" media-type="image/png"/>
+    <item id="word4.png" href="Images/word4.png" media-type="image/png"/>
+    <item id="word5.png" href="Images/word5.png" media-type="image/png"/>
+    <item id="word6.png" href="Images/word6.png" media-type="image/png"/>
+    <item id="word7.png" href="Images/word7.png" media-type="image/png"/>
+    <item id="word8.png" href="Images/word8.png" media-type="image/png"/>
+    <item id="preface_2.xhtml" href="Text/preface_2.xhtml" media-type="application/xhtml+xml"/>
+    <item id="x1.png" href="Images/1.png" media-type="image/png"/>
+    <item id="Sutra_1.xhtml" href="Text/Sutra_1.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Sutra_3.xhtml" href="Text/Sutra_3.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Sutra_4.xhtml" href="Text/Sutra_4.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Sutra_5.xhtml" href="Text/Sutra_5.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Sutra_16.xhtml" href="Text/Sutra_16.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Sutra_17.xhtml" href="Text/Sutra_17.xhtml" media-type="application/xhtml+xml"/>
+    <item id="zhongys.ttf" href="Fonts/zhongys.ttf" media-type="application/x-font-ttf"/>
+    <item id="Sutra_2.xhtml" href="Text/Sutra_2.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Sutra_6.xhtml" href="Text/Sutra_6.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Sutra_7.xhtml" href="Text/Sutra_7.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Sutra_8.xhtml" href="Text/Sutra_8.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Sutra_9.xhtml" href="Text/Sutra_9.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Sutra_10.xhtml" href="Text/Sutra_10.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Sutra_11.xhtml" href="Text/Sutra_11.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Sutra_12.xhtml" href="Text/Sutra_12.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Sutra_13.xhtml" href="Text/Sutra_13.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Sutra_14.xhtml" href="Text/Sutra_14.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Sutra_15.xhtml" href="Text/Sutra_15.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Sutra_19.xhtml" href="Text/Sutra_19.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Sutra_20.xhtml" href="Text/Sutra_20.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Sutra_21.xhtml" href="Text/Sutra_21.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Sutra_22.xhtml" href="Text/Sutra_22.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Sutra_23.xhtml" href="Text/Sutra_23.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Sutra_24.xhtml" href="Text/Sutra_24.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Sutra_25.xhtml" href="Text/Sutra_25.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Sutra_26.xhtml" href="Text/Sutra_26.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Sutra_27.xhtml" href="Text/Sutra_27.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Sutra_28.xhtml" href="Text/Sutra_28.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Sutra_29.xhtml" href="Text/Sutra_29.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Sutra_30.xhtml" href="Text/Sutra_30.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Sutra_31.xhtml" href="Text/Sutra_31.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Sutra_32.xhtml" href="Text/Sutra_32.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Sutra_33.xhtml" href="Text/Sutra_33.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Sutra_34.xhtml" href="Text/Sutra_34.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Sutra_35.xhtml" href="Text/Sutra_35.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Sutra_36.xhtml" href="Text/Sutra_36.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Sutra_37.xhtml" href="Text/Sutra_37.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Sutra_38.xhtml" href="Text/Sutra_38.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Sutra_39.xhtml" href="Text/Sutra_39.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Sutra_40.xhtml" href="Text/Sutra_40.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Sutra_41.xhtml" href="Text/Sutra_41.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Sutra_42.xhtml" href="Text/Sutra_42.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Sutra_18.xhtml" href="Text/Sutra_18.xhtml" media-type="application/xhtml+xml"/>
+    <item id="sgc-toc.css" href="Styles/sgc-toc.css" media-type="text/css"/>
+    <item id="perface_1.xhtml" href="Text/perface_1.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Section0001.xhtml" href="Text/Section0001.xhtml" media-type="application/xhtml+xml"/>
+  </manifest>
+  <spine page-progression-direction="rtl" toc="ncx">
+    <itemref idref="cover.xhtml"/>
+    <itemref idref="foreword.xhtml"/>
+    <itemref idref="TOC.xhtml"/>
+    <itemref idref="Section0001.xhtml"/>
+    <itemref idref="perface_1.xhtml"/>
+    <itemref idref="preface_2.xhtml"/>
+    <itemref idref="Sutra_1.xhtml"/>
+    <itemref idref="Sutra_2.xhtml"/>
+    <itemref idref="Sutra_3.xhtml"/>
+    <itemref idref="Sutra_4.xhtml"/>
+    <itemref idref="Sutra_5.xhtml"/>
+    <itemref idref="Sutra_6.xhtml"/>
+    <itemref idref="Sutra_7.xhtml"/>
+    <itemref idref="Sutra_8.xhtml"/>
+    <itemref idref="Sutra_9.xhtml"/>
+    <itemref idref="Sutra_10.xhtml"/>
+    <itemref idref="Sutra_11.xhtml"/>
+    <itemref idref="Sutra_12.xhtml"/>
+    <itemref idref="Sutra_13.xhtml"/>
+    <itemref idref="Sutra_14.xhtml"/>
+    <itemref idref="Sutra_15.xhtml"/>
+    <itemref idref="Sutra_16.xhtml"/>
+    <itemref idref="Sutra_17.xhtml"/>
+    <itemref idref="Sutra_18.xhtml"/>
+    <itemref idref="Sutra_19.xhtml"/>
+    <itemref idref="Sutra_20.xhtml"/>
+    <itemref idref="Sutra_21.xhtml"/>
+    <itemref idref="Sutra_22.xhtml"/>
+    <itemref idref="Sutra_23.xhtml"/>
+    <itemref idref="Sutra_24.xhtml"/>
+    <itemref idref="Sutra_25.xhtml"/>
+    <itemref idref="Sutra_26.xhtml"/>
+    <itemref idref="Sutra_27.xhtml"/>
+    <itemref idref="Sutra_28.xhtml"/>
+    <itemref idref="Sutra_29.xhtml"/>
+    <itemref idref="Sutra_30.xhtml"/>
+    <itemref idref="Sutra_31.xhtml"/>
+    <itemref idref="Sutra_32.xhtml"/>
+    <itemref idref="Sutra_33.xhtml"/>
+    <itemref idref="Sutra_34.xhtml"/>
+    <itemref idref="Sutra_35.xhtml"/>
+    <itemref idref="Sutra_36.xhtml"/>
+    <itemref idref="Sutra_37.xhtml"/>
+    <itemref idref="Sutra_38.xhtml"/>
+    <itemref idref="Sutra_39.xhtml"/>
+    <itemref idref="Sutra_40.xhtml"/>
+    <itemref idref="Sutra_41.xhtml"/>
+    <itemref idref="Sutra_42.xhtml"/>
+    <itemref idref="SVGWrap0009"/>
+    <itemref idref="SVGWrap0010"/>
+    <itemref idref="colophon.xhtml"/>
+    <itemref idref="colophon2.xhtml"/>
+    <itemref idref="SVGWrap0000"/>
+    <itemref idref="SVGWrap0001"/>
+    <itemref idref="SVGWrap0002"/>
+    <itemref idref="SVGWrap0003"/>
+    <itemref idref="SVGWrap0004"/>
+    <itemref idref="SVGWrap0005"/>
+    <itemref idref="SVGWrap0006"/>
+    <itemref idref="SVGWrap0007"/>
+    <itemref idref="end.xhtml"/>
+    <itemref idref="end2.xhtml"/>
+  </spine>
+  <guide>
+    <reference type="acknowledgements" title="致谢" href="Text/end.xhtml"/>
+    <reference type="cover" title="Cover" href="Text/cover.xhtml"/>
+    <reference type="toc" title="Table of Content" href="Text/TOC.xhtml"/>
+  </guide>
+</package>
