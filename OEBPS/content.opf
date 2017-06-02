@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?>
-<package version="2.0" unique-identifier="BookId" xmlns="http://www.idpf.org/2007/opf">
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="BookId">
   <metadata xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <meta name="Sigil version" content="0.9.8" />
-    <meta name="primary-writing-mode" content="vertical-rl" />
+    <meta name="Sigil version" content="0.9.8"/>
+    <meta name="primary-writing-mode" content="vertical-rl"/>
     <dc:title>大藏經淨土部</dc:title>
     <dc:creator opf:role="aut">姚秦三藏法師鳩摩羅什等譯</dc:creator>
     <dc:language>zh-CN</dc:language>
     <dc:description>Ver 1.0.1 Release</dc:description>
     <dc:date opf:event="modification">2017-05-21</dc:date>
     <dc:identifier opf:scheme="UUID" id="BookId">urn:uuid:4deaa79c-1ca0-4bfe-8f5b-20f19c09d608</dc:identifier>
-    <meta name="cover" content="x1.png" />
+    <meta name="cover" content="x1.png"/>
   </metadata>
   <manifest>
     <item id="Bodhisattva.gif" href="Images/Bodhisattva.gif" media-type="image/gif"/>
@@ -91,9 +91,11 @@
     <item id="sgc-toc.css" href="Styles/sgc-toc.css" media-type="text/css"/>
     <item id="perface_1.xhtml" href="Text/perface_1.xhtml" media-type="application/xhtml+xml"/>
     <item id="Section0001.xhtml" href="Text/Section0001.xhtml" media-type="application/xhtml+xml"/>
+    <item href="../inside_page.html" id="id" media-type="application/xhtml+xml"/>
   </manifest>
   <spine page-progression-direction="rtl" toc="ncx">
     <itemref idref="cover.xhtml"/>
+    <itemref idref="id"/>
     <itemref idref="foreword.xhtml"/>
     <itemref idref="TOC.xhtml"/>
     <itemref idref="Section0001.xhtml"/>
