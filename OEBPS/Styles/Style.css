@@ -319,6 +319,7 @@ div.sgc-toc-level-3 {
    -o-transform: translate(-50%, -50%);   
    transform: translate(-50%, -50%);    
    letter-spacing:100px;
+   font-family:"zhong_ys", "zhun_ys", "st", "zbd", "kt";
 }
 
   div.vol {
@@ -340,6 +341,18 @@ div.sgc-toc-level-3 {
    writing-mode: horizontal-tb;  
    -webkit-writing-mode: horizontal-tb;
    -epub-writing-mode: horizontal-tb;  
+   font-family:"kt";
+}
+
+div.praise {
+  font-size: 200%;
+  padding: 100px;
+  margin: 100px;
+/*  border-color: black;
+  border-width: 1px;
+  border-style: solid;*/
+  font-family:"kt", "zbd", "仿宋", "仿宋_GB2312", "yt", sans-serif;
+  line-height:200%;
 }
 /*正文標題*/
  p.title {
@@ -450,6 +463,10 @@ span.b {
 	font-size:100%;
 	font-family:"zbd", "kt", sans-serif;
 }
+span.praise_title {
+  font-size: 150%;
+  line-height:150%;
+}
 /*标点*/
 
 /* span.bd {
@@ -471,7 +488,7 @@ span.b {
  span.tcy {
 	-webkit-writing-mode: horizontal-tb;
 	display: inline-block;
-	line-height: 1em;
+  line-height: 1em;
 	text-align: center;
 	text-indent: 0;
 }
