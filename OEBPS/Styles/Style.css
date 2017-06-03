@@ -318,7 +318,28 @@ div.sgc-toc-level-3 {
    -ms-transform: translate(-50%, -50%);   
    -o-transform: translate(-50%, -50%);   
    transform: translate(-50%, -50%);    
-   letter-spacing:100px
+   letter-spacing:100px;
+}
+
+  div.vol {
+   font-size: 200%;
+   clear:both;
+   display:block;
+   margin:0px auto;
+   text-align:center;
+   /*float:bottom;*/
+   position: absolute;
+   bottom:50px;
+   width:100%;
+   left: 50%;
+   -webkit-transform: translate(-50%, -50%);   
+   -moz-transform: translate(-50%, -50%);   
+   -ms-transform: translate(-50%, -50%);   
+   -o-transform: translate(-50%, -50%);   
+   transform: translate(-50%, -50%);    
+   writing-mode: horizontal-tb;  
+   -webkit-writing-mode: horizontal-tb;
+   -epub-writing-mode: horizontal-tb;  
 }
 /*正文標題*/
  p.title {
