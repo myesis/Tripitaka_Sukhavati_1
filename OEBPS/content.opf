@@ -91,8 +91,11 @@
     <item id="perface_1.xhtml" href="Text/perface_1.xhtml" media-type="application/xhtml+xml"/>
     <item id="Section0001.xhtml" href="Text/Section0001.xhtml" media-type="application/xhtml+xml"/>
     <item href="../inside_page.html" id="id" media-type="application/xhtml+xml"/>
-    <item href="../Praise_1.html" id="id1" media-type="application/xhtml+xml"/>
+    <item href="../Praise_2.html" id="id1" media-type="application/xhtml+xml"/>
     <item href="Images/003E15D2.png" id="id2" media-type="image/png"/>
+    <item href="../Praise_1.html" id="id3" media-type="application/xhtml+xml"/>
+    <item href="../Verse_for_Opening_a_Sutra.html" id="id4" media-type="application/xhtml+xml"/>
+    <item href="../Verse_of_Transference.html" id="id5" media-type="application/xhtml+xml"/>
   </manifest>
   <spine page-progression-direction="rtl" toc="ncx">
     <itemref idref="cover.xhtml"/>
@@ -101,7 +104,9 @@
     <itemref idref="perface_1.xhtml"/>
     <itemref idref="preface_2.xhtml"/>
     <itemref idref="TOC.xhtml"/>
+    <itemref idref="id3"/>
     <itemref idref="id1"/>
+    <itemref idref="id4"/>
     <itemref idref="Sutra_1.xhtml"/>
     <itemref idref="Sutra_2.xhtml"/>
     <itemref idref="Sutra_3.xhtml"/>
@@ -144,6 +149,7 @@
     <itemref idref="Sutra_40.xhtml"/>
     <itemref idref="Sutra_41.xhtml"/>
     <itemref idref="Sutra_42.xhtml"/>
+    <itemref idref="id5"/>
     <itemref idref="SVGWrap0009"/>
     <itemref idref="SVGWrap0010"/>
     <itemref idref="colophon.xhtml"/>

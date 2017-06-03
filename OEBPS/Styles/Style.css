@@ -466,6 +466,22 @@ span.b {
 span.praise_title {
   font-size: 150%;
   line-height:150%;
+	margin-top: 1em;
+	margin-right:0.5em;
+	margin-left:0.5em;
+}
+
+span.verse_title {
+  font-size: 150%;
+  line-height:150%;
+}
+
+span.bs {
+  font-size: 100%;
+  line-height:300%;
+	margin-top: -1em;
+	margin-right:0.5em;
+	margin-left:0.5em;
 }
 /*标点*/
 
