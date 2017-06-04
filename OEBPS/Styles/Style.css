@@ -354,6 +354,17 @@ div.praise {
   font-family:"kt", "zbd", "仿宋", "仿宋_GB2312", "yt", sans-serif;
   line-height:200%;
 }
+
+div.yinguangmaster {
+  font-size: 180%;
+  padding: 70px;
+  margin: 70px;
+/*  border-color: black;
+  border-width: 1px;
+  border-style: solid;*/
+  font-family:"kt", "zbd", "仿宋", "仿宋_GB2312", "yt", sans-serif;
+
+}
 /*正文標題*/
  p.title {
 	text-align:left;
@@ -464,7 +475,7 @@ span.b {
 	font-family:"zbd", "kt", sans-serif;
 }
 span.praise_title {
-  font-size: 150%;
+  font-size: 135%;
   line-height:150%;
 	margin-top: 1em;
 	margin-right:0.5em;
@@ -472,7 +483,7 @@ span.praise_title {
 }
 
 span.verse_title {
-  font-size: 150%;
+  font-size: 135%;
   line-height:150%;
 }
 
