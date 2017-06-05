@@ -182,6 +182,7 @@ h2 {
 	page-break-before: avoid;
 	letter-spacing: 0.1em;
 }
+
 h3 {
 	font-size: 180%;
 	text-align: left;
@@ -346,19 +347,19 @@ div.sgc-toc-level-3 {
 
 div.praise {
   font-size: 200%;
-  padding: 100px;
-  margin: 100px;
+  padding: 30px;
+  margin: 50px;
 /*  border-color: black;
   border-width: 1px;
   border-style: solid;*/
   font-family:"kt", "zbd", "仿宋", "仿宋_GB2312", "yt", sans-serif;
-  line-height:200%;
+  line-height:150%;
 }
 
 div.yinguangmaster {
-  font-size: 180%;
-  padding: 70px;
-  margin: 70px;
+  font-size: 150%;
+  padding: 30px;
+  margin: 30px;
 /*  border-color: black;
   border-width: 1px;
   border-style: solid;*/
@@ -394,6 +395,10 @@ div.yinguangmaster {
 }
 .mg2 {
 	margin-top: 2em;
+}
+.mg2_break {
+	margin-top: 2em;
+	page-break-before: always;
 }
 .mg3 {
 	margin-top: 3em;
@@ -485,12 +490,23 @@ span.praise_title {
 span.verse_title {
   font-size: 135%;
   line-height:150%;
+	margin-top: 2.0em;
+	margin-right:0.5em;
+	margin-left:0.5em;
+}
+
+span.verse_content {
+  font-size: 100%;
+  line-height:150%;
+	margin-top: 1em;
+	margin-right:0.5em;
+	margin-left:0.5em;
 }
 
 span.bs {
   font-size: 100%;
-  line-height:300%;
-	margin-top: -1em;
+  line-height:150%;
+	margin-top: 1em;
 	margin-right:0.5em;
 	margin-left:0.5em;
 }
@@ -584,4 +600,5 @@ p.colo {
 .ti-2 {
 	text-indent:2em;
 }
+
 /*last edit 2016-5-6*/
