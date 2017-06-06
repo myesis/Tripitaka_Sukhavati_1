@@ -252,7 +252,8 @@ div.sgc-toc-level-3 {
 	margin-left: 0em;
 	margin-right: 0em;
 	display: block;*/
-	font-family:"zbd", "zhong_ys", "zhun_ys", "st";
+	font-weight:bold;
+	font-family:"st", "zbd", "zhong_ys", "zhun_ys", "st";
 }
 .ht {
 	font-family:"zbd", "黑体", "微软雅黑", "ht", sans-serif;
@@ -356,7 +357,7 @@ div.praise {
   line-height:150%;
 }
 
-div.yinguangmaster {
+.yinguangmaster {
   font-size: 150%;
   padding: 30px;
   margin: 30px;
@@ -364,7 +365,16 @@ div.yinguangmaster {
   border-width: 1px;
   border-style: solid;*/
   font-family:"kt", "zbd", "仿宋", "仿宋_GB2312", "yt", sans-serif;
-
+}
+.yinguangmaster1 {
+  font-size: 150%;
+  padding: 30px;
+  margin: 30px;
+/*  border-color: black;
+  border-width: 1px;
+  border-style: solid;*/
+  font-weight:bold;
+  font-family:"st", "kt", "zbd", "仿宋", "仿宋_GB2312", "yt", sans-serif;
 }
 /*正文標題*/
  p.title {
