@@ -255,6 +255,23 @@ div.sgc-toc-level-3 {
 	font-weight:bold;
 	font-family:"st", "zbd", "zhong_ys", "zhun_ys", "st";
 }
+
+p.headnote {
+	text-align: justify;
+	text-indent: 0em;
+	font-size: 100%;
+	line-height: 20%;
+	/*margin: 0px;
+	margin-top: 0em;
+	padding:0px;
+	margin-bottom:0em;
+	/*
+	margin-left: 0em;
+	margin-right: 0em;
+	display: block;*/
+	font-weight:bold;
+	font-family:"zbd", "zhong_ys", "zhun_ys", "st";
+  }
 .ht {
 	font-family:"zbd", "黑体", "微软雅黑", "ht", sans-serif;
 }
@@ -323,14 +340,12 @@ div.sgc-toc-level-3 {
    letter-spacing:100px;
    font-family:"zhong_ys", "zhun_ys", "st", "zbd", "kt";
 }
-
   div.vol {
    font-size: 200%;
    clear:both;
    display:block;
    margin:0px auto;
    text-align:center;
-   /*float:bottom;*/
    position: absolute;
    bottom:50px;
    width:100%;
